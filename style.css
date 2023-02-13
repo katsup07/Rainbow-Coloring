@@ -1,0 +1,36 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background: rgb(29, 29, 29);
+  color: rgb(230, 82, 82);
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+  font-size: 3em;
+  margin: 0px;
+}
+
+canvas {
+  display: grid;
+
+  margin: 10px;
+  background: rgb(83, 162, 208);
+  border: 35px solid rgb(230, 82, 82);
+  border-radius: 1rem;
+}
+
+.erase {
+  background: rgb(100, 165, 219);
+  font-size: 1.5rem;
+  font-weight: 100;
+  border: none;
+  border-radius: 0.1rem;
+}
+
+.erase:hover{
+  background: rgb(230, 82, 82);
+  color: white;
+}
