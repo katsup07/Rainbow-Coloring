@@ -23,6 +23,10 @@ canvas {
   border-radius: 1rem;
 }
 
+canvas:hover{
+  cursor: pointer;
+}
+
 .erase {
   background: rgb(100, 165, 219);
   font-size: 1.5rem;
@@ -35,4 +39,5 @@ canvas {
 .erase:hover{
   background: rgb(230, 82, 82);
   color: white;
+  cursor: pointer;
 }
